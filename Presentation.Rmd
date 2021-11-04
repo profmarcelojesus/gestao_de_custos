@@ -1,5 +1,5 @@
 ---
-title: "Análise custos de concorrentes"
+title: "Análise de Custos dos Concorrentes"
 subtitle: "Disciplina: Gestão Estratética de Custos"
 author: "Marcelo Chaves de Jesus"
 institute: "PPG Agronegócios UFGD"
@@ -236,7 +236,9 @@ YOUNG, S.; O’BYRNE, S. **EVA e Gestão baseada em valor:** guia prático para 
 ---
 class: center, inverse, middle
 # Obrigado!
-[marcelojesus@ufgd.edu.br](marcelojesus@ufgd.edu.br)
+Link para baixar a apresentação
+
+[https://github.com/profmarcelojesus/gestao_de_custos](https://github.com/profmarcelojesus/gestao_de_custos)
 
 ![](imagens/GitHub.png)
 
