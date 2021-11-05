@@ -1,13 +1,12 @@
 ---
-title: "Análise de Custos dos Concorrentes"
-subtitle: "Disciplina: Gestão Estratética de Custos"
-author: "Marcelo Chaves de Jesus"
-institute: "PPG Agronegócios UFGD"
-date: "04/11/2021"
+title: <center><h1><center>Análise de Custos dos Concorrentes</h1>
+subtitle: <center><h2><center>Disciplina Gestão Estratética de Custos</h2>
+author: <center><h3><center>Marcelo Chaves de Jesus<br></h3><br>
+date: <center><h4><center>04/11/2021</h4>;<br> <a href="https://portal.ufgd.edu.br/pos-graduacao/mestrado-agronegocios/index">`r knitr::include_graphics("imagens/logo_ppg.png")`</a>
 encoding: "UTF-8"
 output:
   xaringan::moon_reader:
-    css: ["default", "metropolis", "metropolis-fonts", "ninjutsu"]
+    css: ["default", "metropolis", "metropolis-fonts", custom.css]
     lib_dir: libs
     chakra: libs/remark-latest.min.js
     nature:
@@ -21,7 +20,6 @@ output:
 # background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 # Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
 # source("Scripts/Script.R", encoding="utf-8", local = knitr::knit_global())
-
 ---
 background-image: url(imagens/bi.jpg)
 background-position: 50% 80%
@@ -33,11 +31,10 @@ xaringanExtra::use_logo(
 )
 ```
 # Sistemas de Inteligência Competitiva
-### **Processo que envolve a coleta, análise e validação de informações sobre concorrentes, clientes, fornecedores,  e alianças estratégicas. Essas informações também podem incluir eventos econômicos, reguladores e políticos que tenham impacto potencial sobre os negócios da empresa.**
+### Uma definição:
+> **Processo que envolve a coleta, análise e validação de informações sobre concorrentes, clientes, fornecedores,  e alianças estratégicas. Essas informações também podem incluir eventos econômicos, reguladores e políticos que tenham impacto potencial sobre os negócios da empresa.**
 
-.right[
-**Tyson (1997)**
-]
+> (Tyson, 1997)
 
 ---
 # Sistemas de Inteligência Competitiva
@@ -46,13 +43,13 @@ xaringanExtra::use_logo(
 .pull-left[
 
 ![Hierarquia do Conhecimento (Ackoff, 1988)](imagens/piramide.png)
-(Ackoff, 1988)  
+> (Ackoff, 1988)  
 ]
   
 .pull-right[ 
 ### Informação, Conhecimento, Compreensão e Inteligência
 - **Informações envelhecem rápido**
-- **Conhecimento requer diagnóstico<br> e previsão**
+- **Conhecimento requer diagnóstico e previsão**
 - **Inteligência é permanente**
 <br>
 <br>
@@ -62,7 +59,7 @@ xaringanExtra::use_logo(
 ]
 ---
 background-image: url(imagens/competitive-intelligence.jpg)
-background-position: 90% 35%
+background-position: 85% 35%
 
 # Sistemas de Inteligência Competitiva
 .pull-left[
@@ -74,6 +71,24 @@ background-position: 90% 35%
 - **Evitar erros.**
 - **Conquistar e manter fatias de mercado.**
 > (Cosella, 2008)
+
+]
+---
+# Sistemas de Inteligência Competitiva
+
+.left-column[
+<br>
+<img src="https://media-exp1.licdn.com/dms/image/C5603AQHeT9mdXQzMrA/profile-displayphoto-shrink_800_800/0/1517627001895?e=1641427200&v=beta&t=hAAj0FcEE0ww27yQdOZg2q8cz53kWncHAvV52Wpolak" class="wdn-stretch rounded-corners"/>
+
+**Ana Valéria Medeiros Wanderley, D.Sc.**
+
+Marketing Intelligence, Strategic Planning and Product Positioning Specialist
+
+]
+<center>
+.right-column[
+
+![](imagens/fontes.gif)
 
 ]
 ---
@@ -135,7 +150,7 @@ Estilos de liderança ou filosofia gerencial dos principais gestores | BP, DRE, 
 
 ---
 # Análise dos Custos dos Concorrentes
-.pull-left[
+.pull-left2[
 ## Escala:
 <br>
 
@@ -146,7 +161,7 @@ Investimentos em capacidade de produção | BP, DRE, NE, RA, FR, BS, SI
 Participação de mercado | RA, BS, SI, BD
 ]
 
-.pull-right[
+.pull-right2[
 ## Utilização da capacidade:
 <br>
 
@@ -184,22 +199,25 @@ Existência de programas de melhoria contínua | BP, DRE, NE
 Tempo de atuação da empresa no mercado ou em determinado produto | RA, FR, SI
 Causas de melhorias no processo de produção | BP, DRE, NE, RA, BS, SI
 
-.right[
+.pull-right[
 
-(Costa e Rocha, 2012)
+> (Costa e Rocha, 2012)
 
 ]
+
 ---
 # Estudo Aplicado
 ## Biosev S.A., Cosan S.A. e São Martinho S.A. (2007-2014)
 <br>
 Análise de regressão
+
 ![](imagens/tab.png)
-.right[(Baiochi et al, 2015)]
+> (Baiochi et al, 2015)
+
 ---
 # Referências
 .pull-left[
-BESANKO, D. et al. A economia da estratégia. 3. ed. São Paulo: Bookman, 2004.<br>
+BESANKO, D. et al. **A economia da estratégia.** 3. ed. São Paulo: Bookman, 2004.<br>
 CASELLA, B. M. B. X. **Análise de custos de concorrentes:** estudo exploratório no setor de celulose e papel. 2008. Dissertação (Mestrado em Controladoria e Contabilidade: Contabilidade) - Faculdade de Economia, Administração e Contabilidade, Universidade de São Paulo, São Paulo, 2008. doi:10.11606/D.12.2008.tde-23102008-124826. Acesso em: 2021-11-04.<br>
 CATELLI, A. **Controladoria:** uma abordagem da gestão econômica. São Paulo: Atlas, 1999.<br>
 COSTA, S. A. da; ROCHA, Welington. Determinantes de custos de concorrentes: identificação a partir de
@@ -208,10 +226,10 @@ informações públicas. **Anais...** XIX Congresso Brasileiro de Custos – Ben
 ]
 .pull-right[
 CHIAVENATO, I. **Introdução à teoria geral da administração.** Rio de Janeiro: Campus, 1999.<br>
-______. Administração Geral e Pública. Rio de Janeiro: Elsevier, 2006.<br>
+______. **Administração Geral e Pública.** Rio de Janeiro: Elsevier, 2006.<br>
 DORTIER, J. F. *Les professionnels de l’intelligence: portrait de groupe*, **Les travailleurs du savoir, Sciences Humaines**. 2005, n° 157, pp. 28 - 33.<br>
 EITMAN, D. et al. **Administração financeira internacional**. 9. ed. Porto Alegre: Bookman, 2002.<br>
-GARVIN, D. Competing on the eight dimensions of quality. Harvard Business Review. Nov./Dec. 1987 *apud* BOWERSOX, Donald J.; CLOSS, David J.; COOPER, M. Bixby. **Gestão Logística de Cadeias de Suprimentos.** Porto Alegre: Bookman, 2006.<br>
+GARVIN, D. **Competing on the eight dimensions of quality.** Harvard Business Review. Nov./Dec. 1987 *apud* BOWERSOX, Donald J.; CLOSS, David J.; COOPER, M. Bixby. **Gestão Logística de Cadeias de Suprimentos.** Porto Alegre: Bookman, 2006.<br>
 KOTLER, P. **Administração de marketing.** São Paulo: Prentice Hall, 2000.<br>
 
 ]
@@ -230,6 +248,7 @@ PORTER, M. **Competitive advantage:** creating and sustaining superior performan
 PRESS, G. *Assessing Competitors’ Business Philosophies.* ***Long Range Planning***. V. 23, n. 5, 1990.<br>
 SOUZA, B.; ROCHA, W. **Gestão de Custos Interorganizacionais.** São Paulo: Atlas, 2009.<br>
 SHANK, J.; GOVINDARAJAN, V. **A revolução dos custos:** como reinventar e redefinir sua estratégia de custos para crescer em mercados crescentemente competitivos. Rio de Janeiro: Elsevier, 1997 <br>
+TYSON, K.W.M. *Competition on 21th Century.* St Lucie Press, EUA, 1997.<br> 
 WARD, K. et al. *Accounting for Competition.* ***Management Accounting***. Vol. 70, n. 2, 1992. <br>
 YOUNG, S.; O’BYRNE, S. **EVA e Gestão baseada em valor:** guia prático para implementação. São Paulo: Bookman, 2001.
 ]
@@ -238,7 +257,7 @@ class: center, inverse, middle
 # Obrigado!
 Link para baixar a apresentação
 
-[https://github.com/profmarcelojesus/gestao_de_custos](https://github.com/profmarcelojesus/gestao_de_custos)
+[![](imagens/git_small3.png)](https://github.com/profmarcelojesus/gestao_de_custos)
 
-![](imagens/GitHub.png)
+
 

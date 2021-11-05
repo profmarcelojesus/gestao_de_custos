@@ -1,3 +1,21 @@
 table {
   font-size: 16px;     
 }
+
+img.rounded-corners {
+  border-radius: 50%;
+}
+
+.pull-left2 {
+  float: left;
+  width: 60%;
+}
+
+.pull-right2 {
+  float: right;
+  width: 40%;
+}
+
+.pull-right2 ~ p {
+  clear: both;
+}
