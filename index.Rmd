@@ -259,7 +259,7 @@ class: center, inverse, middle
 # Obrigado!
 Link para baixar a apresentação
 
-[![](imagens/git_small3.png)](https://github.com/profmarcelojesus/gestao_de_custos)
-
-
-
+<div class="box"><a href="https://github.com/profmarcelojesus/gestao_de_custos">
+    <img src="imagens/git_small3.png"></a><a href="https://github.com/profmarcelojesus/gestao_de_custos">
+    <span style="">profmarcelojesus</span></a>
+</div>

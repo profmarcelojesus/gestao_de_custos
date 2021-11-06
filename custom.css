@@ -19,3 +19,11 @@ img.rounded-corners {
 .pull-right2 ~ p {
   clear: both;
 }
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+}
